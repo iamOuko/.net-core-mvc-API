@@ -9,5 +9,6 @@ namespace Commander.Data
             { }
 
         public DbSet<Command> Commands { get; set;  }
+        public DbSet<Person> Persons { get; set; }
     }
 }

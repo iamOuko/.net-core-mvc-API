@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "DxiUe8dfdWxKRUpuhasDzoppPGjXEcjtB+jaBMfVRzC4kpi/VcT/YHPwq4lOZw+dIoiMk7d7uWkTVIQSpoZCDw==",
+  "dgSpecHash": "ZuUETk8U6Q0ovVPX+/AC9IWNlfsZAVXkIvtii7oDStJGwhKNG0vFGNrzxelBBhHMAm7fz3TOjQtik0/+G2Hg/Q==",
   "success": true,
   "projectFilePath": "D:\\c#\\Commander\\Commander\\Commander.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EZRA\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\EZRA\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\EZRA\\.nuget\\packages\\dataannotationsextensions\\5.0.1.27\\dataannotationsextensions.5.0.1.27.nupkg.sha512",
     "C:\\Users\\EZRA\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\EZRA\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.7\\microsoft.aspnetcore.jsonpatch.6.0.7.nupkg.sha512",
     "C:\\Users\\EZRA\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.7\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.7.nupkg.sha512",
@@ -59,5 +60,16 @@
     "C:\\Users\\EZRA\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\EZRA\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DataAnnotationsExtensions 5.0.1.27' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DataAnnotationsExtensions",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
